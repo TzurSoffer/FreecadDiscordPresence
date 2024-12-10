@@ -9,7 +9,7 @@ https://github.com/user-attachments/assets/12f01ed2-5f9b-45a1-8aba-de352e99822d
 ### Method 1 (install via addon manager):
 1. Discord Presence has been added to the FreeCAD-addons repository and can be installed from the built-in Addon Manager.
 
-[DiscordPresenceImage](https://github.com/TzurSoffer/FreecadDiscordPresence/tree/main/showcase/install.png)
+![installImage](https://github.com/user-attachments/assets/a9b6dab0-45f9-4c52-831c-6399bc0981ed)
 
 ### Method 2:
 1. Download/Clone the repository: You can clone or download this project to your local machine.
