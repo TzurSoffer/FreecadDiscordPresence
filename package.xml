@@ -25,6 +25,7 @@
       <subdirectory>./</subdirectory>
       <tag>Discord</tag>
       <freecadmin>0.19</freecadmin>
+      <depend>pypresence</depend>
     </workbench>
   </content>
 
