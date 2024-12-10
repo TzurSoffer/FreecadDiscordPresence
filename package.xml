@@ -11,7 +11,7 @@
 
   <maintainer email="tzur.soffer@gmail">Tzur Soffer</maintainer>
 
-  <license file="LICENSE">GPL-2.0-or-later</license>
+  <license file="LICENSE">LGPL-2.1-or-later</license>
 
   <url branch="main" type="repository">https://github.com/TzurSoffer/FreecadDiscordPresence</url>
 
