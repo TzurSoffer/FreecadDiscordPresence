@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/12f01ed2-5f9b-45a1-8aba-de352e99822d
 ## Installation
 
 ### Method 1: Install via Addon Manager
-1. This extension is available in the FreeCAD Addon Manager. 
+1. This addon is available in the FreeCAD Addon Manager. 
 2. Open FreeCAD, navigate to **Tools > Addon Manager**, and search for `DiscordPresence`.
 3. Install the addon directly from the [Addon Manager](https://wiki.freecad.org/Std_AddonMgr).
 
@@ -34,11 +34,11 @@ https://github.com/user-attachments/assets/12f01ed2-5f9b-45a1-8aba-de352e99822d
 </details>
 
 ## Dependencies
-The extension requires the following Python library:
+The addon requires the following Python library:
 - [`pypresence`](https://github.com/qwertyquerty/pypresence): A library for managing Discord Rich Presence.
 
 ## How it works
-- The extension connects to Discord via the **rpc** protocol which can be read about on the [official discord page](https://discord.com/developers/docs/topics/rpc)
+- The addon connects to Discord via the **rpc** protocol which can be read about on the [official discord page](https://discord.com/developers/docs/topics/rpc)
 - The app app fetches data about the current file and workbench through the FreeCAD api, updating your Discord presence to reflect that information.
 
 # LICENSE
