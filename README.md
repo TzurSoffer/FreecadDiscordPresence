@@ -1,38 +1,46 @@
 # FreeCAD Discord Rich Presence Extension
 
-This extension integrates Discord Rich Presence with FreeCAD, allowing users to display their current FreeCAD activity (such as the active workbench and file being edited) directly in Discord.
+This extension integrates Discord Rich Presence with FreeCAD, enabling users to showcase their current FreeCAD activity (such as the active workbench and file being edited) directly in their Discord profile.
 
 ## Showcase
 https://github.com/user-attachments/assets/12f01ed2-5f9b-45a1-8aba-de352e99822d
 
-## Installation
-### Method 1 (install via addon manager):
-1. Discord Presence has been added to the FreeCAD-addons repository and can be installed from the built-in Addon Manager.
-
-![installImage](https://github.com/user-attachments/assets/a9b6dab0-45f9-4c52-831c-6399bc0981ed)
-
-### Method 2:
-1. Download/Clone the repository: You can clone or download this project to your local machine.
-
-2. Place the script in the Mod folder of freecad.
-    - On Linux it is usually /usr/share/freecad/Mod/
-    - On Windows it is usually C:\Program Files\FreeCAD\Mod\
-    - On macOS it is usually /Applications/FreeCAD/Mod/
-
 ## Features
-- Displays the current workbench in use within FreeCAD.
-- Shows the name of the file currently being edited.
-- Updates every second to reflect real-time changes in FreeCAD.
-- Automatically starts and stops when FreeCAD is running.
+- **Workbench Tracking**: Displays the current workbench in use.
+- **File Monitoring**: Shows the name of the file being edited (or "No file open" if no file is open).
+- **Real-Time Updates**: Automatically updates every second to reflect activity changes.
+- **Seamless Integration**: Starts and stops automatically when FreeCAD is running.
+
+## Installation
+
+### Method 1: Install via Addon Manager
+1. This extension is available in the FreeCAD Addon Manager. 
+2. Open FreeCAD, navigate to **Tools > Addon Manager**, and search for `Discord Presence`.
+3. Install the addon directly from the [Addon Manager](https://wiki.freecad.org/Std_AddonMgr).
+
+### Method 2: Manual Installation
+1. Clone or download this repository to your local machine:
+```bash
+git clone https://github.com/TzurSoffer/FreecadDiscordPresence
+```
+2. Copy the *DiscordPresence* folder to the Mod folder of FreeCAD:
+- **Linux**: ```/usr/share/freecad/Mod/```
+- **Windows**: ```C:\Program Files\FreeCAD\Mod\```
+- **macOS**: ```/Applications/FreeCAD/Mod/```
+
+3. Restart FreeCAD to activate the extension.
 
 ## Dependencies
-- ```pypresence```: Python library to manage Discord Rich Presence.
+The extension requires the following Python library:
+- [`pypresence`](https://github.com/qwertyquerty/pypresence): A library for managing Discord Rich Presence.
 
-You can install the required library with the following:
-
-```bash
-pip install pypresence
-```
+## How it works
+- The extension connects to Discord via the **rpc** protocol which can be read about on the [official discord page](https://discord.com/developers/docs/topics/rpc)
+- The app app fetches data about the current file and workbench through the FreeCAD api, updating your Discord presence to reflect that information.
 
 # LICENSE
 This app uses LGPL2.1, the full license file can be found in the License File
+
+# CREDITS
+- ### [chennes](https://github.com/chennes) for helping with the publication of the package to the FreeCAD addons.
+- ### [luzpaz](https://github.com/luzpaz) for helping with README.md and publication to the FreeCAD addons.
