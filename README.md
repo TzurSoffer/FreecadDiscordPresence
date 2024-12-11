@@ -33,9 +33,10 @@ https://github.com/user-attachments/assets/12f01ed2-5f9b-45a1-8aba-de352e99822d
   <p>3. Restart FreeCAD to activate the addon.</p>
 </details>
 
-## Dependencies
-The addon requires the following Python library:
-- [`pypresence`](https://github.com/qwertyquerty/pypresence): A library for managing Discord Rich Presence.
+<details><summary><h2>Dependencies (automatically installed by addon manager)</h2></summary>
+The addon requires the following Python library: <br>
+- <a href=https://github.com/qwertyquerty/pypresence><code>pypresence:</code></a> A library for managing Discord Rich Presence.
+</details>
 
 ## How it works
 - The addon connects to Discord via the **rpc** protocol which can be read about on the [official discord page](https://discord.com/developers/docs/topics/rpc)
@@ -45,5 +46,5 @@ The addon requires the following Python library:
 This app uses LGPL2.1, the full license file can be found in the License File
 
 # CREDITS
-- ### [chennes](https://github.com/chennes) for helping with the publication of the package to the FreeCAD addons.
 - ### [luzpaz](https://github.com/luzpaz) for helping with README.md and publication to the FreeCAD addons.
+- ### [chennes](https://github.com/chennes) for helping with the publication of the package to the FreeCAD addons.
