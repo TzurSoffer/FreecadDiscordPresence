@@ -30,7 +30,7 @@ https://github.com/user-attachments/assets/12f01ed2-5f9b-45a1-8aba-de352e99822d
     <li><strong>macOS</strong>: <code>/Applications/FreeCAD/Mod/</code></li>
   </ul>
   
-  <p>3. Restart FreeCAD to activate the extension.</p>
+  <p>3. Restart FreeCAD to activate the addon.</p>
 </details>
 
 ## Dependencies
