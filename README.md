@@ -15,7 +15,7 @@ https://github.com/user-attachments/assets/12f01ed2-5f9b-45a1-8aba-de352e99822d
 
 ### Method 1: Install via Addon Manager
 1. This extension is available in the FreeCAD Addon Manager. 
-2. Open FreeCAD, navigate to **Tools > Addon Manager**, and search for `Discord Presence`.
+2. Open FreeCAD, navigate to **Tools > Addon Manager**, and search for `DiscordPresence`.
 3. Install the addon directly from the [Addon Manager](https://wiki.freecad.org/Std_AddonMgr).
 
 ### Method 2: Manual Installation
