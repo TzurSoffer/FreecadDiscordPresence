@@ -5,7 +5,7 @@
 
   <description>Shows FreeCAD Status on discord.</description>
 
-  <version>1.0.1</version>
+  <version>1.0.2</version>
 
   <date>2024-12-09</date>
 
@@ -30,4 +30,3 @@
   </content>
 
 </package>
-
