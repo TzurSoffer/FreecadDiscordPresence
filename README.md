@@ -2,6 +2,8 @@
 
 This addon integrates Discord Rich Presence with FreeCAD, enabling users to showcase their current FreeCAD activity (such as the active workbench and file being edited) directly in their Discord profile.
 
+*If you found [this repository](https://github.com/TzurSoffer/FreecadDiscordPresence) useful, please give it a ⭐!.*
+
 ## Showcase
 https://github.com/user-attachments/assets/12f01ed2-5f9b-45a1-8aba-de352e99822d
 
