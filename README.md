@@ -19,7 +19,7 @@ https://github.com/user-attachments/assets/12f01ed2-5f9b-45a1-8aba-de352e99822d
 3. Install the addon directly from the [Addon Manager](https://wiki.freecad.org/Std_AddonMgr).
 
 <details>
-  <summary><h2>Manual Installation</h2></summary>
+  <summary><h3>Manual Installation</h3></summary>
   <p>1. Clone or download this repository to your local machine:</p>
   <pre><code>git clone https://github.com/TzurSoffer/FreecadDiscordPresence</code></pre>
   
@@ -33,7 +33,7 @@ https://github.com/user-attachments/assets/12f01ed2-5f9b-45a1-8aba-de352e99822d
   <p>3. Restart FreeCAD to activate the addon.</p>
 </details>
 
-<details><summary><h2>Dependencies (automatically installed by addon manager)</h2></summary>
+<details><summary><h3>Dependencies (automatically installed by addon manager)</h3></summary>
 The addon requires the following Python library: <br>
 - <a href=https://github.com/qwertyquerty/pypresence><code>pypresence:</code></a> A library for managing Discord Rich Presence.
 </details>
