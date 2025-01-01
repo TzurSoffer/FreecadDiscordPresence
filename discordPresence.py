@@ -1,6 +1,6 @@
 import FreeCADGui
 import FreeCAD
-from PySide2 import QtCore
+from PySide import QtCore
 from pypresence import Presence
 import time
 import re
