@@ -38,6 +38,12 @@ The addon requires the following Python library: <br>
 - <a href=https://github.com/qwertyquerty/pypresence><code>pypresence:</code></a> A library for managing Discord Rich Presence.
 </details>
 
+**Note:** If you are on Linux and are using the Flatpak packaging of FreeCAD, run
+```
+flatpak override org.freecad.FreeCAD --user --filesystem=xdg-run/discord-ipc-0 --filesystem=xdg-run/app/com.discordapp.Discord
+```
+to grant FreeCAD the necessary permissions to communicate with Discord.
+
 ## How it works
 - The addon connects to Discord via the **rpc** protocol which can be read about on the [official discord page](https://discord.com/developers/docs/topics/rpc)
 - The app app fetches data about the current file and workbench through the FreeCAD api, updating your Discord presence to reflect that information.
